@@ -1,0 +1,13 @@
+server:
+  domain: api-gateway
+  port: :4000
+  jwtSecret: dadaaq
+  version: 1.0
+
+
+etcd:
+  address: 127.0.0.1:2379
+
+domain:
+  user: user
+  task: task
